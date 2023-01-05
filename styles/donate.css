@@ -1,14 +1,142 @@
-
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
 
 .header{
-    
+    background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%), url(../images/donation5.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-item{
     text-align: center;
-    
+    padding: 175px 307px;
+}
+
+
+.header-title{
+    font-weight: 700;
+    font-size: 65px;
+    color: #ffffff;
 }
 .header-description{
     font-weight: 400;
     font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    color: #ffffff;
 }
-.header-but{
+.btn-primary{
     background: #FF5959;
+    border-radius: 5px;
+    border:none;
+    padding: 15px 25px;
+    color: #ffffff;
+    
 }
+
+.about-info
+{
+
+}
+.about-info-title{
+    font-weight: 700;
+    font-size: 45px;
+    text-align: center;
+    color: #121212;
+    padding-top: 130px;
+    margin-bottom: 30px;
+}
+.about-info-description{
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color:#707070;
+   
+   margin: 0 400px;
+   margin-bottom: 50px;
+}
+/* donate-it style */
+.donate-it{
+    display: flex;
+    gap:30px;
+    padding-top: 50px;
+    margin: 0px 420px;
+    
+}
+.about-info-it{
+    background-color: #eacfcf;
+    padding: 44px 24px;
+    
+    
+}
+.about-donate{
+    background-color:  #e59999;
+    padding: 44px 24px;
+}
+.donate-description{
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    padding-top: 60px;
+    
+
+}
+.number{
+    border:none;
+}
+hr{
+    margin: 0 400px;
+    background-color: #DADADA;
+    
+}
+.btn{
+    text-align: center;
+    padding-top: 30px;
+}
+
+/* icons style */
+
+.icons-item{
+    display: flex;
+    /* padding: 60px; */
+    gap: 45px;
+    justify-content: space-around;
+    margin: 0 280px;
+    
+}
+
+.icons-section{
+    background-color: #fa98b9;
+    
+
+}
+.icons-section-it{
+        background-color: rgb(80, 80, 107);
+        
+}
+.icons-section-from{
+        background-color: rgb(69, 69, 48);
+        
+        
+
+}
+.icons-img{
+    margin-top: 50px;
+    margin-left: 24px;
+}
+.icons-title{
+   margin-top: 30px;
+   margin-left: 24px;
+   margin-bottom: 10px;
+
+}
+.icons-description{
+    padding-left: 24px;
+    padding-bottom: 50px;
+    font-weight: 400;
+    font-size: 16px;
+}
+

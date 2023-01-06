@@ -208,3 +208,23 @@ font-size: 18px;
     padding: 10px 40px;
     color: #ffffff;
 }
+.last-footer{
+text-align: center;
+background-color: #121212;
+
+justify-content: center;
+padding: 20px;
+}
+.last-footer-title{
+    padding-top: 38px;
+    font-weight: 600;
+    font-size: 35px;
+    color: rgb(126, 54, 123);
+
+}
+.last-footer-description{
+    padding : 25px 0;
+    color: white;
+}
+
+
